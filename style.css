@@ -1,0 +1,32 @@
+
+body{
+  background-image: url(Images/bgsilksong.png);
+  background-size: cover;
+}
+
+.box{
+  background-color: white;
+  display:flex;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 15%;
+  margin-right: 50%;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.boxTittle{
+  text-align: center;
+  font-size: 3vh;
+  @import url('https://fonts.cdnfonts.com/css/trajan-pro');
+  font-family: 'Trajan Pro', sans-serif;
+}
+
+.Description{
+  font-size: 6vh;
+  @import url('https://fonts.cdnfonts.com/css/trajan-pro');
+  font-family: 'Trajan Pro', sans-serif;
+  padding-bottom: 20px;
+}
