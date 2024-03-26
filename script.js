@@ -1,4 +1,4 @@
-var countDownDate = new Date("Jul 3, 2023 15:00:00");
+var countDownDate = new Date("Jul 3, 2024 15:00:00");
 var x = setInterval(function() {
   var now = new Date().getTime();
   var difference = countDownDate - now;
